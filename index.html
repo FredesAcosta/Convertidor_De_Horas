@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Horas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertidor de Horas</h1>
+        <label for="colombia-time">Hora en Colombia:</label>
+        <input type="time" id="colombia-time">
+        
+        <label for="country">Selecciona un país:</label>
+        <select id="country">
+            <option value="usa">Estados Unidos (EST)</option>
+            <option value="spain">España (CET)</option>
+            <option value="japan">Japón (JST)</option>
+        </select>
+        
+        <button id="convert-btn">Convertir</button>
+        
+        <h2>Hora Convertida:</h2>
+        <p id="converted-time">--:--</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
