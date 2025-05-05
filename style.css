@@ -1,0 +1,57 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    background-color: #f4f4f9; /* Color de fondo claro */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno alrededor del contenido */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    background: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo del encabezado principal */
+h1 {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Hace que las etiquetas ocupen toda la línea */
+    margin: 10px 0 5px; /* Espaciado superior, lateral e inferior */
+}
+
+/* Estilo de los campos de entrada, menús desplegables y botones */
+input, select, button {
+    width: 100%; /* Ocupan todo el ancho del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+}
+
+/* Estilo del botón al pasar el cursor por encima */
+button:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro */
+}
+
+/* Estilo del texto que muestra la hora convertida */
+#converted-time {
+    font-size: 1.5em; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+}
